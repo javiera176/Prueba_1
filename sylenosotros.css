@@ -57,7 +57,7 @@ ul.nav li{
  }
 
 .middle{ 
-	height: 1000px;
+	height: 2000px;
 	
 }
 
@@ -75,8 +75,23 @@ ul.nav li{
  	padding-left: 0;
  }
 
- 
+.colizquierda h3{
+	margin-left: 30px;
+}
+ .colizquierda .titpeque{
+ 	text-align: center;
+ 	font-weight: bold;
+ }
 
+ .colizquierda img {
+ 	float: left;
+ 	margin-right: 10px;
+ }
+
+ .colizquierda .centerimg{
+ 	margin:30px 200px;
+ 	  
+ }
  
 
 .lineapeque {
