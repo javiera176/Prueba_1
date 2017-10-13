@@ -57,7 +57,7 @@ ul.nav li{
  }
 
 .middle{ 
-	height: 5000px;
+	height: 3000px;
 	
 }
 
@@ -182,24 +182,25 @@ font-weight: 30px;
 
 
 
-
-.footer{
-	background-color: #687f2b;
-	height: 550px;
-	margin-bottom: 15px;
-
-}
- 
  .footer .infomap {
  	margin-top: 20px; 
  	text-align: center;
+
+ }
+
+  .footer .infomap p {
+ 	font-size: 16px;
  }
 
  .footer .infomap .embed-responsive{
  
- 	margin: 50px 30px;
+ 	margin: auto;
  	width: 90%;
+ 	margin-top: 28px;
+ 	margin-bottom: 55px;
+
  }
+
 
  
 
