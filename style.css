@@ -49,13 +49,13 @@ ul.nav li{
 
  .linea {
  	height: 50px;
- 	background-color: #9fb349;
+ 	background-color: #3a5e8b;
  	margin-top: -30px;
  	border: 0.5px solid #8b9b42;
  }
 
 .middle{ 
-	height: 2000px;
+	height: 2500px;
 	
 }
 
@@ -81,6 +81,11 @@ ul.nav li{
 .colizquierda .thumbnail h3{
 	font-weight: bold;
 }
+
+.twitter{
+	margin: 50px 30px;
+}
+
 
 .lineapeque {
 	width: 100%;
@@ -163,28 +168,24 @@ ul.nav li{
   
 }
 
-
-
-
-
-
-
-.footer{
-	background-color: #687f2b;
-	height: 550px;
-	margin-bottom: 15px;
-
-}
  
  .footer .infomap {
  	margin-top: 20px; 
  	text-align: center;
+
+ }
+
+  .footer .infomap p {
+ 	font-size: 16px;
  }
 
  .footer .infomap .embed-responsive{
  
- 	margin: 50px 30px;
+ 	margin: auto;
  	width: 90%;
+ 	margin-top: 28px;
+ 	margin-bottom: 55px;
+
  }
 
  

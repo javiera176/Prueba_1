@@ -51,13 +51,13 @@ ul.nav li{
 
  .linea {
  	height: 50px;
- 	background-color: #9fb349;
+ 	background-color: #3a5e8b;
  	margin-top: -30px;
  	border: 0.5px solid #8b9b42;
  }
 
 .middle{ 
-	height: 2000px;
+	height: 5000px;
 	
 }
 
@@ -79,8 +79,15 @@ ul.nav li{
 	margin-left: 30px;
 }
  .colizquierda .titpeque{
- 	text-align: center;
+ 	 
  	font-weight: bold;
+ 	clear: both;
+ 	font-size: 20px;
+ }
+
+  .colizquierda .titpeque .quien p{
+ 	 
+ text-align: center;
  }
 
  .colizquierda img {
@@ -92,6 +99,32 @@ ul.nav li{
  	margin:30px 200px;
  	  
  }
+
+ .colizquierda .colizqimg{
+	width: 30%; 
+	margin-top: 50px;
+	clear: both;
+}
+
+.colizquierda #clear{
+	clear:both;
+}
+
+.colizquierda .quienes p {
+font-weight: bold;
+font-weight: 30px;
+}
+
+
+ .personas .profile h1{
+ 	font-size: 20px; 
+ }
+
+
+ .personas .profile h2{
+ 	font-size: 15px; 
+ }
+ 
  
 
 .lineapeque {

@@ -90,29 +90,105 @@
 		<br>
 		<br>
 		<div class="container">
-			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		 
-		 
+			  
 			<article class="col-md-7 colizquierda">
-				<div class="thumbnail">
-					<img src="images/tallerjuvenil.png" class="img-responsive" id="tallerjuvenil">
-					<h3>Inicio de talleres de Teatro, Manos Creando, Habilidades Sociales y Grupo de Apoto para Padres 2016
-					</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				 
+				<div class="carrousel"> 
+					<div class="container">
+						<div class = "col-md-7">
+						  <h2>Noticias</h2>  
+						  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+						    <!-- Indicators -->
+						    <ol class="carousel-indicators">
+						      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						      <li data-target="#myCarousel" data-slide-to="1"></li>
+						      <li data-target="#myCarousel" data-slide-to="2"></li>
+						    </ol>
 
-					 
-					 
-				</div>
+						    <!-- Wrapper for slides -->
+						    <div class="carousel-inner">
+							      <div class="item active">
+							      	<div class="thumbnail">
+										<img src="images/tallerjuvenil.png" alt="Los Angeles" style="width:100%;">
+										<h3>Inicio de talleres de Teatro, Manos Creando, Habilidades Sociales y Grupo de Apoto para Padres 2016
+										</h3>
+										<p>Luego de dos exitosos años en el trabajo en nuestros talleres"Teatro" y "Manos Creando", teniendo ambos por objetivo el entregar herramientas para el desarrollo de  habilidades sociales en niños y adolescentes con condiciones del espectro autista a través del arte, estamos próximos a iniciar la tercera versión. Mientras los niños y adolescentes permanecen en sus talleres, sus padres participan del Grupo de Apoyo Familiar, que busca brindar contención y herramientas para el trabajo en el...</p> 
+									</div> 
+							      </div> 
+							      <div class="item">
+							      	<div class="thumbnail">
+										<img src="images/elcuidadanoAsperger.png" alt="Chicago" style="width:100%;">
+										<h3>El ciudadano esperger
+										</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, labore eos doloribus voluptas rerum, similique quod, magni earum distinctio dignissimos unde consectetur vitae sequi laudantium? Repellat ipsa dignissimos, pariatur ea...</p> 
+									</div>
+							        
+							      </div> 
+							      <div class="item">
+							      		<div class="thumbnail">
+										  <img src="images/capacitacionvoluntarias.png" alt="New york" style="width:100%;">
+										<h3>Capacitación de Voluntarias Taller 2015
+										</h3>
+										<p>En las dependencias de la Universidad San Sebastián, Sede Bellavista se está realizando el proyecto de voluntariado con las Alumnas de la Carrera de Educación Diferencial. En este proceso, aparte de colaborar en los Talleres de Teatro y Manos Creando, las alumnas recibirán permanente capacitación que le permitirá conocer elementos teóricos que proporcionen las destrezas para trabajar con sus estudiantes con Necesidades Educativas Especiales, especialmente los alumnos y alumnas del Es...</p> 
+									</div>
+							      
+							      </div>
+							      <div class="item">
+							      		<div class="thumbnail">
+										  <img src="images/cartaamijorgito.png" alt="New york" style="width:100%;">
+										<h3>Carta a mi Jorgito</h3>
+										<p>Querido Jorgito: Desde el momento que te tomé por primera vez en mis brazos supe que ibas a ser un niño muy especial, querido, esperado y por sobre todo,  mi niño. Con el paso del tiempo fuiste creciendo, y como todo niño te fuiste enfrentando a los desafíos que te colocaba la vida casi sin darte cuenta. Te demoraste en decir tus primeras palabras, te era difícil hacer amigos, costaba que te entendiéramos, pero lo que nunca faltaba... era una sonrisa tuya, llena de amor. Es difíci...</p> 
+									</div>
+							      
+							      </div>
+						    </div>
+
+						    <!-- Left and right controls -->
+						    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+							      <span class="glyphicon glyphicon-chevron-left"></span>
+							      <span class="sr-only">Previous</span>
+						    </a>
+						    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+							      <span class="glyphicon glyphicon-chevron-right"></span>
+							      <span class="sr-only">Next</span>
+						    </a>
+						  </div>
+						</div> 
+					</div>
+				</div> 
+				<div class="twitter col-md-12"> 
+					<div class="container">
+					  <div class="col-lg-4 col-sm-6 text-center">
+					  <div class="well">
+					        <h4>Últimos Tweets</h4>
+					    <div class="input-group">
+					        <input type="text" id="userComment" class="form-control input-sm chat-input" placeholder="Escribe tu mensaje aquí..." />
+						    <span class="input-group-btn" onclick="addComment()">     
+					            <a href="#" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-comment"></span> Agrega un Tweet</a>
+					        </span>
+					    </div>
+					    <hr data-brackets-id="12673">
+					    <ul data-brackets-id="12674" id="sortable" class="list-unstyled ui-sortable">
+					        <strong class="pull-left primary-font">Javiera</strong>
+					        <small class="pull-right text-muted">
+					           <span class="glyphicon glyphicon-time"></span>231 días ago</small>
+					        </br>
+					        <li class="ui-state-default">Porque trabajar en ambientes inclusivos dejó de ser terreno sólo para Profesores de Educación Diferencial....  </li>
+					        </br>
+					         <strong class="pull-left primary-font">Pedro</strong>
+					        <small class="pull-right text-muted">
+					           <span class="glyphicon glyphicon-time"></span>421 días ago</small>
+					        </br>
+					        <li class="ui-state-default">Cuántas horas duerme tu hijo? Recuerda que la higiene del sueño es fundamental y son muchas las cosas que podemos... </li>
+
+					        <a href="#"><img src="images/Twitter1.png" alt=""></a>
+					        <a href="#"><img src="images/Twitter2.png" alt=""></a>
+					        
+					    </ul>
+					    </div>
+					</div>
+					
+				</div> <!--fin twitter-->
 				  
 			</article>
 
@@ -162,101 +238,67 @@
 						<li><a href="#">TEATRO 2015 Y GRUPO DE APOYO PARA PADRES</a></li>
 						</ul>	
 					</div> 
-				</div>
-				<div class="twitter col-md-12">
-
-
-					<div class="container">
-					  <div class="col-lg-4 col-sm-6 text-center">
-					  <div class="well">
-					        <h4>Últimos Tweets</h4>
-					    <div class="input-group">
-					        <input type="text" id="userComment" class="form-control input-sm chat-input" placeholder="Escribe tu mensaje aquí..." />
-						    <span class="input-group-btn" onclick="addComment()">     
-					            <a href="#" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-comment"></span> Agrega un Tweet</a>
-					        </span>
-					    </div>
-					    <hr data-brackets-id="12673">
-					    <ul data-brackets-id="12674" id="sortable" class="list-unstyled ui-sortable">
-					        <strong class="pull-left primary-font">Javiera</strong>
-					        <small class="pull-right text-muted">
-					           <span class="glyphicon glyphicon-time"></span>231 días ago</small>
-					        </br>
-					        <li class="ui-state-default">Porque trabajar en ambientes inclusivos dejó de ser terreno sólo para Profesores de Educación Diferencial....  </li>
-					        </br>
-					         <strong class="pull-left primary-font">Pedro</strong>
-					        <small class="pull-right text-muted">
-					           <span class="glyphicon glyphicon-time"></span>421 días ago</small>
-					        </br>
-					        <li class="ui-state-default">Cuántas horas duerme tu hijo? Recuerda que la higiene del sueño es fundamental y son muchas las cosas que podemos... </li>
-
-					        <a href="#"><img src="images/Twitter1.png" alt=""></a>
-					        <a href="#"><img src="images/Twitter2.png" alt=""></a>
-					        
-					    </ul>
-					    </div>
-					</div>
-					
-				</div> <!--fin twitter-->
-
+				</div> 
 			</aside>
 		 </div> <!--fin container-->
 	</div> <!--fin middle-->
-	 
-	<div class="container footer"> 
-		<footer> 
-			<div class= "row">
-				<div class="col-md-3 formcontacto"> 
-					<div class="container">
-						<div class="col-md-3">
-						    <div class="form-area">  
-						        <form role="form">
-						        	<br style="clear:both">
-						             <h3 style="margin-bottom: 25px; text-align: center;">Formulario de contacto</h3>
-				    				<div class="form-group">
-										<input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" id="email" name="email" placeholder="E-mail" required>
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Número de teléfono" required>
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto" required>
-									</div>
-				                    <div class="form-group">
-				                    	<textarea class="form-control" type="textarea" id="message" placeholder="Mensaje" maxlength="140" rows="7"></textarea>
-				                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>    
-				                    </div> 
-						        	<button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Enviar</button>
-						        </form>
-						    </div>
+	
+		<div class="container footer">
+		<div class="jumbotron"> 
+			<footer> 
+				<div class= "row">
+					<div class="col-md-4 formcontacto"> 
+						<div class="container">
+							<div class="col-md-12">
+							    <div class="form-area">  
+							        <form role="form">
+							        	<br style="clear:both">
+							             <h3 style="margin-bottom: 25px; text-align: center;">Formulario de contacto</h3>
+					    				<div class="form-group">
+											<input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="email" name="email" placeholder="E-mail" required>
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Número de teléfono" required>
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto" required>
+										</div>
+					                    <div class="form-group">
+					                    	<textarea class="form-control" type="textarea" id="message" placeholder="Mensaje" maxlength="140" rows="7"></textarea>
+					                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>    
+					                    </div> 
+							        	<button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Enviar</button>
+							        </form>
+							    </div>
+							</div>
+						</div> 
+					</div> <!--fin formcontacto-->
+					<div class="col-md-3 infomap col-md-offset-1">
+						<h3>Nuestra información</h3>
+						<div class="embed-responsive embed-responsive-4by3">>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.8193359908764!2d-70.5813988495638!3d-33.401877280693625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf26243dcc31%3A0xc9aacb64a9fec91!2sParque+Arauco!5e0!3m2!1ses-419!2scl!4v1507672520967" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="embed-responsive-item"></iframe>
 						</div>
-					</div> 
-				</div> <!--fin formcontacto-->
-				<div class="col-md-4 infomap col-md-offset-1">
-					<h3>Nuestra información</h3>
-					<div class="embed-responsive embed-responsive-4by3">>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.8193359908764!2d-70.5813988495638!3d-33.401877280693625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf26243dcc31%3A0xc9aacb64a9fec91!2sParque+Arauco!5e0!3m2!1ses-419!2scl!4v1507672520967" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="embed-responsive-item"></iframe>
+						<p>Teléfono: +569 88459349</p>
+						<p>Correo: fundacionasp@fundacion.cl</p>
+						<p>Dirección: Av Presidente Kennedy 5413</p>
 					</div>
-					<p>Teléfono: +569 88459349</p>
-					<p>Correo: fundacionasp@fundacion.cl</p>
-					<p>Dirección: Av Presidente Kennedy 5413</p>
-				</div>
-				<div class="col-md-3 redesocial col-md-offset-1">
-					<h3>Redes sociales</h3>
-					 
-					<div class="logos2">
-						<a href="#"><img src="images/face.png" class="img-responsive"></a>
-						<a href="#"><img src="images/twit.png" class="img-responsive"></a>
-						<a href="#"><img src="images/youtube.png" class="img-responsive"></a>
-				</div>
-				</div>
-			</div>  <!--fin row-->
-		</footer>  
-		 
-	</div> <!--fin container-->  
+					<div class="col-md-3 redesocial col-md-offset-1">
+						<h3>Redes sociales</h3>
+						 
+						<div class="logos2">
+							<a href="#"><img src="images/face.png" class="img-responsive"></a>
+							<a href="#"><img src="images/twit.png" class="img-responsive"></a>
+							<a href="#"><img src="images/youtube.png" class="img-responsive"></a>
+					</div>
+					</div>
+				</div>  <!--fin row-->
+			</footer>  
+			 
+		</div> <!--fin jumbotron-->
+		</div> <!--fin container-->  
 
  
 
